@@ -76,4 +76,5 @@ public class Passport {
     public void setPinCode(int pinCode) {
         this.pinCode = pinCode;
     }
+
 }
