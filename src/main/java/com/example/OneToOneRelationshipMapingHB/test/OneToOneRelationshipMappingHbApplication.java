@@ -9,13 +9,10 @@ import org.hibernate.boot.Metadata;
 import org.hibernate.boot.MetadataSources;
 import org.hibernate.boot.registry.StandardServiceRegistry;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import static org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build;
-
 @SpringBootApplication
-public class OneToOneRelationshipMapingHbApplication {
+public class OneToOneRelationshipMappingHbApplication {
 
 	public static void main(String[] args) {
 		String resorceName;

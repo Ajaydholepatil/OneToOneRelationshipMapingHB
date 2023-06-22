@@ -37,7 +37,7 @@ public class Passport {
         this.person = person;
     }
 
-    public String getPassportLine2(String xyz) {
+    public String getPassportLine2() {
         return PassportLine2;
     }
 
@@ -45,7 +45,7 @@ public class Passport {
         PassportLine2 = passportLine2;
     }
 
-    public String getCity(String shirala) {
+    public String getCity() {
         return city;
     }
 
@@ -53,7 +53,7 @@ public class Passport {
         this.city = city;
     }
 
-    public String getState(String maharashtra) {
+    public String getState() {
         return state;
     }
 
@@ -61,7 +61,7 @@ public class Passport {
         this.state = state;
     }
 
-    public String getCountry(String india) {
+    public String getCountry() {
         return country;
     }
 
